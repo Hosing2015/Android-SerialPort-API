@@ -108,6 +108,6 @@ public class SerialPort {
     public native void close();
 
     static {
-        System.loadLibrary("serial_port");
+        System.loadLibrary("serial_port_jysd");
     }
 }
